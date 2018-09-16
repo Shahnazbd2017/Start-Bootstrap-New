@@ -1,0 +1,348 @@
+/* Global css */
+@import url("https://fonts.googleapis.com/css?family=Gidugu|Handlee|Kaushan+Script|Montserrat:100,300,400,600,700|Roboto:300,400,500,700");
+
+body{
+
+
+    font-family: 'Roboto', sans-serif;
+    /*
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Handlee', cursive;
+    font-family: 'Gidugu', sans-serif;*/
+    background-color: #f8f9fa;
+}
+section{
+	padding: 50px 0px;
+}
+/* Header Section */
+.nav-item{
+	color: #fed136;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding:20px 0px;
+	position: 0;
+}
+.navbar-brand{
+	color: #fec503 !important;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+}
+/* Banner Section */
+
+.banner{
+	background: url(../img/header-bg.jpg);
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	padding: 250px 0px;
+}
+.banner h2{
+	font-family: 'Handlee', cursive;
+	font-size: 35px;
+	font-style: italic;
+	padding: 10 0px;
+	margin:20px 0;
+}
+.banner h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	padding: 5 0px;
+	font-weight: 700;
+}
+.banner .btn{
+	background-color: #fed136;
+	border-color: #fed136;
+	padding: 20px 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700px;
+	font-size: 20px;
+	margin:30px 0px;
+	-webkit-transition: ease 0.4s all; 
+	-moz-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+}
+.banner .btn:hover{
+	background-color: #fec810;
+	border-color: #fec810;
+}
+</* Services Section */>
+.service h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+.service h4{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 50px;
+}	
+.service .fa{
+	background-color: #fed136;
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 70px;
+	line-height: 120px;
+}
+.service h2{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 20px 0px 16px;
+}
+.service p{
+	font-size: 16px;
+	color: #6c757d;
+}
+</* Portfolio Section */>
+
+.portfolio h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+.portfolio h3{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 50px;
+}
+.portfolio h2{
+	padding: 15px 0px 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+</* About Section */>
+.about h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+}
+.about h4{
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 50px;
+}
+.about-item p{
+	font-size: 16px;
+	color: #6c757d;
+	font-style: italic;
+}
+.pull-right{
+	text-align: right;
+}
+.pull-left{
+	text-align: left;
+}
+.about p{
+	padding-top: 10px;
+	font-size: 16px;
+	color: #6c757d;
+	padding-bottom: 15px;
+	
+}
+.timeline-image{
+	height: 170px;
+	width: 170px;
+	border-radius: 100%;
+	background-color: #cfcfcf;
+	padding: 6px;
+}
+.timeline-image img{
+	border-radius: 100%;
+}
+.pull-left h2{
+ text-align: left;
+}
+.timeline-color{
+	background-color:  #fed136;
+}
+.about{
+	padding: 80px 0px;
+}
+.timeline-image{
+	position: relative;
+	height: 170px;
+	width: 170px;
+}
+.timeline-image h3{
+	widows: 100px;
+	height: 100px;
+	color: white;
+	position: absolute;
+	bottom:50px;
+    font-size: 25px;
+	margin: 8px 30px;
+	text-align: center;
+	padding: 10px;
+}
+</* Team Section */>
+.team h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+.team h4{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 50px;
+}	
+.team-image h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif; 
+}
+.bottom-text p{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 50px;
+	text-align: center;
+	margin: 30px;
+}
+.team-image img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+.team-image .fa{
+	background-color: #212529;
+	color: #fff;
+	width: 50px;
+	height:50px;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 22px;
+	line-height:50px;
+	margin: 5px;
+	margin-top: -25px;
+
+}
+.team text h4{
+	font-size: 16px;
+	font-weight: 400;
+	color: #6c757d;
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+</* Contact Us Service */>
+
+.contact{
+	background: url(../img/contact-bg.jpg);
+	color: white;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	padding: 250px 0px;
+}
+.contact h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif; 
+	padding-bottom: 20px;
+}
+.contact h4{
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	color: #6c757d;
+	padding-bottom: 20px;
+}
+
+.contact{
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.contact .btn{
+	background-color: #fed136;
+	border-color: #fed136;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700px;
+	font-size: 20px;
+	margin:30px 0px;
+	-webkit-transition: ease 0.4s all; 
+	-moz-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+}
+.contact .btn:hover{
+	background-color: #fec810;
+	border-color: #fec810;
+}
+.contact textarea{
+	height: 100px;
+}
+</* Footer Section */>
+
+.footer-text{
+	height: 50px !important;
+	text-align: center;
+}
+.footer-image .fa{
+	background-color: #fff;
+	color: #212529;
+	width: 45px;
+	height:45px;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 20px;
+	line-height:50px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+
+/* Media Query */
+@media (min-width: 0px) and (max-width: 500px){
+
+.banner h2{
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+	font-style: italic;
+	padding: 5 0px;
+	margin:0;
+}
+.banner h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	padding: 0px;
+}
+.banner .btn{
+	
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500px;
+	font-size: 15px;
+	margin:20px 0px;
+}
+
+}
+
+
